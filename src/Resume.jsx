@@ -9,9 +9,9 @@ function Resume() {
       "Computer Science",
     ],
     experience: [
-      { year: 2012, company: "xyz", role: "smart contract Developer" },
-      { year: 2015, company: "RURU", role: "NFT Developer" },
-      { year: 2023, company: "SUBMUX", role: "Senior Blockchain Engineer" },
+      { year: 2012, company: "xyz ", role: "smart contract Developer" },
+      { year: 2015, company: "RURU ", role: "NFT Developer" },
+      { year: 2023, company: "SUBMUX ", role: "Senior Blockchain Engineer" },
     ],
     education: ["BCA", "MCA"],
     skills: ["react js", "node js", "Solidity", "Blockchain"],

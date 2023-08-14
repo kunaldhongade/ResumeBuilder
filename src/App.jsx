@@ -8,6 +8,10 @@ function App() {
   const body = document.body;
   let icon = <FaSun />;
 
+  function printResume() {
+    window.print();
+  }
+
   const changeTheme = () => {
     console.log("hi");
     if (body.classList.contains("dark")) {
@@ -24,6 +28,7 @@ function App() {
   return (
     <div>
       <button onClick={changeTheme}>{icon}</button>
+      <button onClick={printResume}>print</button>
       <Resume></Resume>
     </div>
   );
